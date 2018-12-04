@@ -1,0 +1,115 @@
+.btn {
+  &.disabled,
+  &:disabled {
+    cursor: not-allowed;
+  }
+  
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 36px;
+  line-height: 1;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: $blue;
+  border: none;
+
+  &:hover {
+    background: $dark-blue;
+  }
+
+  &:not(:disabled):not(.disabled):active {
+    background: $dark-blue;
+  }
+
+  &:disabled {
+    background: $blue;
+  }
+}
+
+.btn-outline-primary {
+  background: $white;
+  border: 1px solid $blue;
+  color: $blue;
+
+  &:hover {
+    background: $white;
+    border: 1px solid $blue;
+    color: $blue;
+  }
+
+  &:not(:disabled):not(.disabled):active {
+    background: $white;
+    border: 1px solid $blue;
+    color: $blue;
+  }
+
+  &:disabled {
+    background: $white;
+    border: 1px solid $blue;
+    color: $blue;
+  }
+}
+
+.btn-secondary {
+  background: $cyan;
+  border: none;
+
+  &:hover {
+    background: $dark-cyan;
+  }
+
+  &:not(:disabled):not(.disabled):active {
+    background: $dark-cyan;
+  }
+
+  &:disabled {
+    background: $cyan;
+  }
+}
+
+.btn-outline-secondary {
+  background: $white;
+  border: 1px solid $cyan;
+  color: $cyan;
+
+  &:hover {
+    background: $white;
+    border: 1px solid $cyan;
+    color: $cyan;
+  }
+
+  &:not(:disabled):not(.disabled):active {
+    background: $white;
+    border: 1px solid $cyan;
+    color: $cyan;
+  }
+
+  &:disabled {
+    background: $white;
+    border: 1px solid $cyan;
+    color: $cyan;
+  }
+}
+
+a {
+  color: $teal;
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0;
+  text-transform: capitalize;
+  height: inherit;
+  min-height: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: $nc-secondary;
+    text-decoration: none;
+  }
+}

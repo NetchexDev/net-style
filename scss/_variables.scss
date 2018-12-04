@@ -1,0 +1,175 @@
+/* 
+$tertiary-one: #f4f4f4;
+$tertiary-two: #d1eae5;
+$tertiary-three: #f0f0f0;
+$tertiary-four: #f1f1f1;
+
+$outline-button-hover: #f0eeee;
+$secondary-outline-button-hover: #89ecea;
+
+$disabled-button-hover: #e0dfdf;
+
+//$button-link-three: $teal;
+$button-link-four: #ccffff;
+$secondary-link: #757575;
+
+$text-primary: #555;
+$text-secondary-one: #333;
+$text-secondary-two: #999;
+//$text-secondary-three: $secondary-three;
+$text-secondary-four: #fff;
+$text-secondary-five: #777;
+$text-secondary-six: #7b7b7b;
+
+$text-error: #e53935;
+
+//$status-active: $secondary-five;
+$status-inprogress: #ffc;
+$status-terminated: #fdb5ad;
+
+$toaster-success-one: #ccffcc;
+$toaster-success-two: #26a977;
+
+$toaster-warning-text: #8a6d3b;
+$toaster-warning-bg: #ffffcc;
+
+$toaster-error-border: #990000;
+
+$toaster-info-bg: #eef6e7;
+
+$sticky-footer-teal: #337070;
+
+$side-nav-bg: #abdeab;
+$setup-progress-hover-bg: #cccccb;
+$setup-progress-active-bg: #9c9;
+
+$status-red-bg: #ff3333;
+$status-orange-bg: #ff9a36;
+$status-yellow-bg: #ffe44d; */
+
+$white:  #fff !default;
+$black:  #000 !default;
+$gray-100: #f8f8f8 !default;
+$gray-200: #f2f2f2 !default;
+$gray-300: #e9e9e9 !default;
+$gray-400: #ccc !default;
+$gray-500: #989898 !default;
+$gray-600: #6a6a6a !default;
+$gray-700: #555 !default;
+$gray-800: #333333 !default;
+$gray-900: #191919 !default;
+
+$body-color: #555;
+
+$nc-primary:   #339966 !default;
+$nc-secondary:   #0c4f48 !default;
+$green:         $nc-primary !default;
+$lime:          #66cc66 !default;
+$mint:          #ccffcc !default;
+$cyan:          #00cccc !default;
+$dark-cyan:     #00b6b6 !default;
+$blue:          #006699 !default;
+$dark-blue:     #015782 !default;
+$yellow:        #ffffcc !default;
+$orange:        #fb6b5b !default;
+$red:           #990000 !default;
+$indigo:        #6610f2 !default;
+$purple:        #6f42c1 !default;
+$pink:          #fdb5ad !default;
+$teal:          #009999 !default;
+
+$colors: (
+    blue: $blue,
+    indigo: $indigo,
+    purple: $purple,
+    pink: $pink,
+    red: $red,
+    cyan: $cyan,
+    orange: $orange,
+    yellow: $yellow,
+    green: $green,
+    teal: $teal,
+    white: $white,
+    gray: $gray-300,
+    gray-dark: $gray-600
+) !default;
+
+$gray-dark:                 #333 !default;
+$gray:                      #555 !default;
+$gray-light:                #999 !default;
+$gray-lighter:              #CCC !default;
+$gray-lightest:             #FFF !default;
+
+$green-100: #53c68c !default;
+$green-200: #40bf80 !default;
+$green-300: #39ac73 !default;
+$green-400: $nc-primary !default;
+$green-500: #2d8659 !default;
+$green-600: #26734d !default;
+$green-700: #206040 !default;
+
+$greens: (
+    100: $green-100,
+    200: $green-200,
+    300: $green-300,
+    400: $green-400,
+    500: $green-500,
+    600: $green-600,
+    700: $green-700,
+    primary: $green-500
+) !default;
+
+$theme-colors: (
+    primary: $nc-primary,
+    secondary: $nc-secondary,
+    success: $green,
+    info: $cyan,
+    warning: $yellow,
+    caution: $orange,
+    danger: $red,
+    light: $gray-300,
+    dark: $gray-800
+) !default;
+
+
+$font-family-sans-serif: "Source Sans Pro",sans-serif;
+
+$font-size-base: 0.9375rem !default;
+$font-size-lg:   1.125rem !default;
+$font-size-sm:   0.8125rem !default;
+
+/*
+ * Using OpenSans in select boxes causes some font clipping,
+ * this variable allows the fix to be adjusted
+ */
+$custom-select-padding-y: 0.285rem !default;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+$h1-font-size: 25px !default;
+$h2-font-size: 20px !default;
+$h3-font-size: 18px !default;
+$h4-font-size: 18px !default;
+$h5-font-size: 15px !default;
+$h6-font-size: 13px !default;
+
+$headings-line-height:   1.3 !default;
+
+$input-btn-line-height:  1.3 !default;
+
+$code-color: $red !default;
+$code-bg: $gray-300 !default;
+
+$input-color: $gray-700 !default;
+$input-placeholder-color: $gray-500 !default;
+$input-border-color: $gray-500 !default;
+
+$border-radius:     .25rem !default;
+$border-radius-lg:  .3rem !default;
+$border-radius-sm:  .2rem !default;
+
+$enable-gradients: true !default;
+$enable-rounded: false !default;
+$enable-shadows: true !default;

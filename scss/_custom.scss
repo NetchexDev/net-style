@@ -1,0 +1,69 @@
+
+/*
+ * Underline Headers
+ */
+h1.underline,
+h2.underline,
+h3.underline,
+h4.underline,
+h5.underline,
+h6.underline {
+  border-bottom: 1px solid darken(theme-color(primary), 10%);
+  margin-bottom: $headings-margin-bottom;
+  line-height: $headings-line-height;
+}
+
+h1.underline-black,
+h2.underline-black,
+h3.underline-black,
+h4.underline-black,
+h5.underline-black,
+h6.underline-black {
+  border-bottom: 1px solid $black;
+  margin-bottom: $headings-margin-bottom;
+  line-height: $headings-line-height;
+}
+
+.text-highlight {
+  border: 1px solid darken($green-100, 5%);
+  border-radius: $border-radius;
+  background-color: lighten($green-100, 5%);
+  display: inline-block;
+  padding: 0px 4px;
+  color: darken($green-100, 65%);
+}
+
+select.form-control {
+  padding-top: $custom-select-padding-y;
+  padding-bottom: $custom-select-padding-y;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+label[for] {
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .25rem;
+}
+
+.invalid-feedback {
+  margin-top: -2px;
+  font-size: .8rem;
+  position: absolute;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

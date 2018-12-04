@@ -1,0 +1,33 @@
+// Contextual backgrounds
+
+@mixin nc-bg-gen($parent, $color) {
+  #{$parent} {
+    background-color: $color !important;
+  }
+}
+
+@mixin nc-color-gen($parent, $color) {
+  #{$parent} {
+    color: $color !important;
+  }
+}
+
+/*
+ * Green Classes
+ */
+@each $color, $value in $greens {
+  @include nc-color-gen('.green-#{$color}', $value);
+}
+@each $color, $value in $greens {
+  @include nc-bg-gen('.bg-green-#{$color}', $value);
+}
+
+/*
+ * Gray Classes
+ */
+@each $color, $value in $grays {
+  @include nc-color-gen('.gray-#{$color}', $value);
+}
+@each $color, $value in $grays {
+  @include nc-bg-gen('.bg-gray-#{$color}', $value);
+}
