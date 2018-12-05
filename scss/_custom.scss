@@ -42,6 +42,15 @@ select.form-control {
   cursor: pointer;
 }
 
+.form-control {
+  &:focus {
+    border: 1px solid $gray-light;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px $mint, 0 0 8px $mint;
+    box-shadow: inset 0 1px 1px $mint, 0 0 8px $mint;
+  }
+}
+
 input[type="radio"],
 input[type="checkbox"],
 label[for] {
