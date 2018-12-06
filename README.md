@@ -23,3 +23,11 @@ Update the doc styles via:
 ```
 $ npm run build-docs
 ```
+
+## Fonts
+
+Build the fonts:
+
+```
+$ npm run build-font
+```
