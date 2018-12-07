@@ -20,6 +20,6 @@
     "build-docs": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 --importer importer.js docs/style.scss docs/style.css",
     "watch": "nodemon --watch scss --ignore dist/ -e scss -x \"npm run build\"",
     "build-font": "icon-font-generator icons/*.svg -o docs -p ncicons --types ttf --normalize -n ncicons | node-sass --output-style compressed --precision 6 --importer importer docs/ncicons.css dist/ncicons.min.css | cp docs/ncicons.ttf dist/ncicons.ttf",
-    "server": "http-server /docs"
+    "server": "http-server ./docs"
   }
 }
