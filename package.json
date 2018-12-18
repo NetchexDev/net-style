@@ -7,10 +7,10 @@
   "license": "",
   "devDependencies": {
     "bootstrap": "4.1.3",
+    "http-server": "0.11.1",
     "icon-font-generator": "2.1.8",
     "node-sass": "4.10.0",
-    "nodemon": "1.18.7",
-    "http-server": "0.11.1"
+    "nodemon": "1.18.7"
   },
   "peerDependencies": {
     "bootstrap": "4.1.3"
@@ -19,7 +19,7 @@
     "build": "node-sass --output-style compressed --precision 6 --importer importer.js scss/style.scss dist/net-style.min.css",
     "build-docs": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 --importer importer.js docs/style.scss docs/style.css",
     "watch": "nodemon --watch scss --ignore dist/ -e scss -x \"npm run build\"",
-    "build-font": "icon-font-generator icons/*.svg -o docs -p ncicons --types ttf --normalize -n ncicons | node-sass --output-style compressed --precision 6 --importer importer docs/ncicons.css dist/ncicons.min.css | cp docs/ncicons.ttf dist/ncicons.ttf",
+    "build-font": "icon-font-generator icons/*.svg -o ./docs -p ncicons --types ttf --normalize -n ncicons --height 600 | node-sass --output-style compressed --precision 6 --importer importer ./docs/ncicons.css ./dist/ncicons.min.css | cp ./docs/ncicons.ttf ./dist/ncicons.ttf",
     "server": "http-server ./docs"
   }
 }
