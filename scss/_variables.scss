@@ -131,6 +131,29 @@ $theme-colors: (
     dark: $gray-800
 ) !default;
 
+$role-1: #BA4686;
+$role-2: #BA62C1;
+$role-3: #7151A8;
+$role-4: #4186E0;
+$role-5: #526498;
+$role-6: #85A007;
+$role-7: #339966;
+$role-8: #1F726A;
+$role-9: #BB9016;
+$role-10: #DA7512;
+
+$role-colors: (
+    1: $role-1,
+    2: $role-2,
+    3: $role-3,
+    4: $role-4,
+    5: $role-5,
+    6: $role-6,
+    7: $role-7,
+    8: $role-8,
+    9: $role-9,
+    10: $role-10
+) !default;
 
 $font-family-sans-serif: "Source Sans Pro",sans-serif;
 
