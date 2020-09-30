@@ -1,15 +1,15 @@
 {
   "name": "net-style",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Base Bootstrap file for Netchex",
   "main": "index.html",
   "author": "",
   "license": "",
   "devDependencies": {
-    "bootstrap": "4.2.1",
-    "http-server": "0.11.1",
+    "bootstrap": "^4.5.2",
+    "http-server": "^0.12.3",
     "icon-font-generator": "2.1.8",
-    "node-sass": "4.10.0",
+    "node-sass": "^4.14.1",
     "nodemon": "1.18.7"
   },
   "peerDependencies": {
