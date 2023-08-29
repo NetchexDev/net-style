@@ -1,0 +1,433 @@
+@font-face {
+    font-family: "ncicons";
+    src: url("./ncicons.ttf?155d94921dc04132329a46ebccc6ad3c") format("truetype");
+}
+
+i[class^="ncicons-"]:before, i[class*=" ncicons-"]:before {
+    font-family: ncicons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ncicons-abrahamlincoln:before {
+    content: "\f101";
+}
+.ncicons-alert:before {
+    content: "\f102";
+}
+.ncicons-arrow:before {
+    content: "\f103";
+}
+.ncicons-bird:before {
+    content: "\f104";
+}
+.ncicons-briefcase-complete:before {
+    content: "\f105";
+}
+.ncicons-briefcase-time:before {
+    content: "\f106";
+}
+.ncicons-briefcase:before {
+    content: "\f107";
+}
+.ncicons-brushnpencil:before {
+    content: "\f108";
+}
+.ncicons-calculator:before {
+    content: "\f109";
+}
+.ncicons-calendar-clock:before {
+    content: "\f10a";
+}
+.ncicons-calendar-outline:before {
+    content: "\f10b";
+}
+.ncicons-calendar-solid:before {
+    content: "\f10c";
+}
+.ncicons-calendar-time:before {
+    content: "\f10d";
+}
+.ncicons-candle:before {
+    content: "\f10e";
+}
+.ncicons-cellphone-outline:before {
+    content: "\f10f";
+}
+.ncicons-cellphone-solid:before {
+    content: "\f110";
+}
+.ncicons-champagne:before {
+    content: "\f111";
+}
+.ncicons-clipboard-denied:before {
+    content: "\f112";
+}
+.ncicons-clipboard:before {
+    content: "\f113";
+}
+.ncicons-document-caution:before {
+    content: "\f114";
+}
+.ncicons-document-complete:before {
+    content: "\f115";
+}
+.ncicons-document-payroll:before {
+    content: "\f116";
+}
+.ncicons-document-refresh:before {
+    content: "\f117";
+}
+.ncicons-document-searching:before {
+    content: "\f118";
+}
+.ncicons-document-user:before {
+    content: "\f119";
+}
+.ncicons-document-userrefresh:before {
+    content: "\f11a";
+}
+.ncicons-easteregg:before {
+    content: "\f11b";
+}
+.ncicons-envelope-solid:before {
+    content: "\f11c";
+}
+.ncicons-fireworks:before {
+    content: "\f11d";
+}
+.ncicons-flag:before {
+    content: "\f11e";
+}
+.ncicons-governmentbuilding:before {
+    content: "\f11f";
+}
+.ncicons-graduationcap:before {
+    content: "\f120";
+}
+.ncicons-house:before {
+    content: "\f121";
+}
+.ncicons-identificationtag:before {
+    content: "\f122";
+}
+.ncicons-location:before {
+    content: "\f123";
+}
+.ncicons-map:before {
+    content: "\f124";
+}
+.ncicons-mardigrasmask:before {
+    content: "\f125";
+}
+.ncicons-medal:before {
+    content: "\f126";
+}
+.ncicons-money-exclamation:before {
+    content: "\f127";
+}
+.ncicons-money-stack:before {
+    content: "\f128";
+}
+.ncicons-money:before {
+    content: "\f129";
+}
+.ncicons-order:before {
+    content: "\f12a";
+}
+.ncicons-organizationchart:before {
+    content: "\f12b";
+}
+.ncicons-party:before {
+    content: "\f12c";
+}
+.ncicons-phone-outline:before {
+    content: "\f12d";
+}
+.ncicons-phone-solid:before {
+    content: "\f12e";
+}
+.ncicons-piechart-outline:before {
+    content: "\f12f";
+}
+.ncicons-piechart-solid:before {
+    content: "\f130";
+}
+.ncicons-present:before {
+    content: "\f131";
+}
+.ncicons-pricetag:before {
+    content: "\f132";
+}
+.ncicons-ps-acacentral:before {
+    content: "\f133";
+}
+.ncicons-ps-backoffice:before {
+    content: "\f134";
+}
+.ncicons-ps-cobra:before {
+    content: "\f135";
+}
+.ncicons-ps-dashboard:before {
+    content: "\f136";
+}
+.ncicons-ps-everify:before {
+    content: "\f137";
+}
+.ncicons-ps-hrsupportcenter:before {
+    content: "\f138";
+}
+.ncicons-ps-maintenance:before {
+    content: "\f139";
+}
+.ncicons-ps-netassisthr:before {
+    content: "\f13a";
+}
+.ncicons-ps-netbenefits:before {
+    content: "\f13b";
+}
+.ncicons-ps-netguide:before {
+    content: "\f13c";
+}
+.ncicons-ps-nethire:before {
+    content: "\f13d";
+}
+.ncicons-ps-netinsight:before {
+    content: "\f13e";
+}
+.ncicons-ps-netperform:before {
+    content: "\f13f";
+}
+.ncicons-ps-netrecruiter:before {
+    content: "\f140";
+}
+.ncicons-ps-payroll:before {
+    content: "\f141";
+}
+.ncicons-ps-people:before {
+    content: "\f142";
+}
+.ncicons-ps-reports:before {
+    content: "\f143";
+}
+.ncicons-ps-timenattendance:before {
+    content: "\f144";
+}
+.ncicons-ps-useraccess:before {
+    content: "\f145";
+}
+.ncicons-pumpkin:before {
+    content: "\f146";
+}
+.ncicons-ribbon:before {
+    content: "\f147";
+}
+.ncicons-ribbon2:before {
+    content: "\f148";
+}
+.ncicons-s-AK:before {
+    content: "\f149";
+}
+.ncicons-s-AL:before {
+    content: "\f14a";
+}
+.ncicons-s-AR:before {
+    content: "\f14b";
+}
+.ncicons-s-AZ:before {
+    content: "\f14c";
+}
+.ncicons-s-CA:before {
+    content: "\f14d";
+}
+.ncicons-s-CO:before {
+    content: "\f14e";
+}
+.ncicons-s-CT:before {
+    content: "\f14f";
+}
+.ncicons-s-DC:before {
+    content: "\f150";
+}
+.ncicons-s-DE:before {
+    content: "\f151";
+}
+.ncicons-s-FL:before {
+    content: "\f152";
+}
+.ncicons-s-GA:before {
+    content: "\f153";
+}
+.ncicons-s-HI:before {
+    content: "\f154";
+}
+.ncicons-s-IA:before {
+    content: "\f155";
+}
+.ncicons-s-ID:before {
+    content: "\f156";
+}
+.ncicons-s-IL:before {
+    content: "\f157";
+}
+.ncicons-s-IN:before {
+    content: "\f158";
+}
+.ncicons-s-KS:before {
+    content: "\f159";
+}
+.ncicons-s-KY:before {
+    content: "\f15a";
+}
+.ncicons-s-LA:before {
+    content: "\f15b";
+}
+.ncicons-s-MA:before {
+    content: "\f15c";
+}
+.ncicons-s-MD:before {
+    content: "\f15d";
+}
+.ncicons-s-ME:before {
+    content: "\f15e";
+}
+.ncicons-s-MI:before {
+    content: "\f15f";
+}
+.ncicons-s-MN:before {
+    content: "\f160";
+}
+.ncicons-s-MO:before {
+    content: "\f161";
+}
+.ncicons-s-MS:before {
+    content: "\f162";
+}
+.ncicons-s-MT:before {
+    content: "\f163";
+}
+.ncicons-s-NC:before {
+    content: "\f164";
+}
+.ncicons-s-ND:before {
+    content: "\f165";
+}
+.ncicons-s-NE:before {
+    content: "\f166";
+}
+.ncicons-s-NH:before {
+    content: "\f167";
+}
+.ncicons-s-NJ:before {
+    content: "\f168";
+}
+.ncicons-s-NM:before {
+    content: "\f169";
+}
+.ncicons-s-NV:before {
+    content: "\f16a";
+}
+.ncicons-s-NY:before {
+    content: "\f16b";
+}
+.ncicons-s-OH:before {
+    content: "\f16c";
+}
+.ncicons-s-OK:before {
+    content: "\f16d";
+}
+.ncicons-s-OR:before {
+    content: "\f16e";
+}
+.ncicons-s-PA:before {
+    content: "\f16f";
+}
+.ncicons-s-RI:before {
+    content: "\f170";
+}
+.ncicons-s-SC:before {
+    content: "\f171";
+}
+.ncicons-s-SD:before {
+    content: "\f172";
+}
+.ncicons-s-TN:before {
+    content: "\f173";
+}
+.ncicons-s-TX:before {
+    content: "\f174";
+}
+.ncicons-s-USA:before {
+    content: "\f175";
+}
+.ncicons-s-UT:before {
+    content: "\f176";
+}
+.ncicons-s-VA:before {
+    content: "\f177";
+}
+.ncicons-s-VT:before {
+    content: "\f178";
+}
+.ncicons-s-WA:before {
+    content: "\f179";
+}
+.ncicons-s-WI:before {
+    content: "\f17a";
+}
+.ncicons-s-WV:before {
+    content: "\f17b";
+}
+.ncicons-s-WY:before {
+    content: "\f17c";
+}
+.ncicons-ship:before {
+    content: "\f17d";
+}
+.ncicons-social-facebook:before {
+    content: "\f17e";
+}
+.ncicons-social-google:before {
+    content: "\f17f";
+}
+.ncicons-social-linkedin:before {
+    content: "\f180";
+}
+.ncicons-social-twitter:before {
+    content: "\f181";
+}
+.ncicons-thumbsup:before {
+    content: "\f182";
+}
+.ncicons-tools-star:before {
+    content: "\f183";
+}
+.ncicons-tools:before {
+    content: "\f184";
+}
+.ncicons-turkey:before {
+    content: "\f185";
+}
+.ncicons-users-chart-primary:before {
+    content: "\f186";
+}
+.ncicons-users-chart-secondary:before {
+    content: "\f187";
+}
+.ncicons-users-connections:before {
+    content: "\f188";
+}
+.ncicons-users-contact-outline:before {
+    content: "\f189";
+}
+.ncicons-users-contact-solid:before {
+    content: "\f18a";
+}
+.ncicons-users-time:before {
+    content: "\f18b";
+}

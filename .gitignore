@@ -2,3 +2,5 @@
 .DS_Store
 /.idea
 /npm-debug.log
+dist/*
+.npmrc
