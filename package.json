@@ -1,25 +1,25 @@
 {
   "name": "net-style",
-  "version": "0.0.8",
+  "version": "1.0.0-alpha-1",
   "description": "Base Bootstrap file for Netchex",
   "main": "index.html",
   "author": "",
   "license": "",
   "devDependencies": {
-    "bootstrap": "^4.5.2",
-    "http-server": "^0.12.3",
-    "icon-font-generator": "2.1.8",
-    "node-sass": "^4.14.1",
-    "nodemon": "1.18.7"
+    "bootstrap": "5.3.1",
+    "http-server": "^14.1.1",
+    "icon-font-generator": "^2.1.11",
+    "nodemon": "^3.0.1",
+    "sass": "~1.26.11"
   },
   "peerDependencies": {
-    "bootstrap": "4.1.3"
+    "bootstrap": "~5.0"
   },
   "scripts": {
-    "build": "node-sass --output-style compressed --precision 6 --importer importer.js scss/style.scss dist/net-style.min.css",
-    "build-docs": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 --importer importer.js docs/style.scss docs/style.css",
+    "build": "sass --style compressed scss/style.scss dist/net-style.min.css",
+    "build-docs": "sass docs/style.scss docs/style.css",
     "watch": "nodemon --watch scss --ignore dist/ -e scss -x \"npm run build\"",
-    "build-font": "icon-font-generator icons/*.svg -o ./docs -p ncicons --types ttf --normalize -n ncicons --height 600 | node-sass --output-style compressed --precision 6 --importer importer ./docs/ncicons.css ./dist/ncicons.min.css | cp ./docs/ncicons.ttf ./dist/ncicons.ttf",
+    "build-font": "icon-font-generator icons/*.svg -o ./docs -p ncicons --types ttf --normalize -n ncicons --height 600 | sass --style compressed ./docs/ncicons.css ./dist/ncicons.min.css | cp ./docs/ncicons.ttf ./dist/ncicons.ttf",
     "server": "http-server ./docs"
   }
 }
