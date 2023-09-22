@@ -1,6 +1,7 @@
 # Netchex Styles
 > Styles for Netchex
 
+## NOTE: THIS REPO HAS BEEN MOVED TO AZURE DEVOPS AND IS NO LONGER MAINTAINED HERE
 
 ## Usage
 
